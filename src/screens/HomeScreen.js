@@ -35,6 +35,22 @@ import { View,Text,Button,StyleSheet,TouchableOpacity } from "react-native";
     onPress={()=>navigation.navigate('Color')}
     />
 
+<Button 
+    title='Go to Square demo'
+    onPress={()=>navigation.navigate('Square')}
+    />
+
+    
+<Button 
+    title='Go to Text demo'
+    onPress={()=>navigation.navigate('Text')}
+    />
+
+<Button 
+    title='Go to Box demo'
+    onPress={()=>navigation.navigate('Box')}
+    />
+
   </View>
  );
 };
